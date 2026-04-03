@@ -67,11 +67,15 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
     background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 @media (max-width:700px) {
     section.imagem {
         background-attachment: scroll;
+        background-position: right center;
     }
 }
 section.imagem > p {
