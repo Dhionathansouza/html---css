@@ -75,7 +75,7 @@ section.imagem {
 @media (max-width:700px) {
     section.imagem {
         background-attachment: scroll;
-        background-position: right center;
+        background-position: center;
     }
 }
 section.imagem > p {
