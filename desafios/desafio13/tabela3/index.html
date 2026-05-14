@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            height: 300px;
+            border-collapse: collapse;
+        }
+        thead {
+            background-color: rgba(47, 79, 79, 0.81);
+            color:  whitesmoke;
+        }
+        .especial {
+            background-color: rgba(47, 79, 79, 0.81);
+            color: whitesmoke;
+            text-align: left;
+            padding: 5px;
+        }
+        #especial2 {
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+
+                <tr>
+                    <th>Nota1</td>
+                    <th>Nota2</td>
+                </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>9,0</td>
+                <td>7,0</td>
+                <td>8,0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>6,0</td>
+                <td>7,0</td>
+                <td>6,5</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>6,0</td>
+                <td>9,0</td>
+                <td>7,5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>5,0</td>
+                <td>7,0</td>
+                <td>6,0</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="especial">Média de Exatas</td>
+                <td id="especial2" class="especial">7,0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>5,0</td>
+                <td>8,0</td>
+                <td>6,5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>9,0</td>
+                <td>6,0</td>
+                <td>7,5</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="especial">Média de Humanas</td>
+                <td id="especial2" class="especial">7,0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
